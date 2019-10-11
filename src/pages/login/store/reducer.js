@@ -1,0 +1,17 @@
+import * as actiontypes from './actiontypes'
+import { fromJS } from 'immutable'
+
+const defaultState = fromJS({
+    login: false
+})
+
+export default (state = defaultState, action)=>{
+    switch(action.type){
+        case actiontypes.CHANGE_LOGIN:
+            return state.set('login', action.value)
+        case actiontypes.LOGOUT:
+                return state.set('login', action.value)
+        default: 
+            return state;
+    }
+}

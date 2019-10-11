@@ -1,0 +1,6 @@
+export const INPUT_FOCUS = 'header/input_focus'
+export const INPUT_BLUR = 'header/input_blur'
+export const CHANGE_LIST = 'header/change_list'
+export const ON_MOUSE_ENTER = 'header/on_mouse_enter'
+export const ON_MOUSE_LEAVE = 'header/on_mouse_leave'
+export const CHANGE_PAGE = 'header/change_page'
